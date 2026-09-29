@@ -1,3 +1,5 @@
+<img width="1774" height="887" alt="logo" src="https://github.com/user-attachments/assets/864b278d-d780-4fb0-a206-640bd8236803" />
+
 # AgroRecursos MarketPlace
 
 **Projeto Integrador IV — Engenharia de Software**  
