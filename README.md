@@ -2,7 +2,7 @@
 
 **Projeto Integrador IV — Engenharia de Software**  
 **Pontifícia Universidade Católica de Campinas (PUC-Campinas)**  
-**Equipe ES-PI4-2026-T2-G015**
+**Equipe PI_IV_TIME_15**
 
 > Plataforma digital para aquisição de insumos agropecuários, com foco em transparência, agilidade e procedência.
 
