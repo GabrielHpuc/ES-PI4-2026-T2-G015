@@ -1,181 +1,248 @@
-# 🌱 AgroRecursos MarketPlace
+# AgroRecursos MarketPlace
 
-> **Conectando o campo com confiança, agilidade e procedência.**
+**Projeto Integrador IV — Engenharia de Software**  
+**Pontifícia Universidade Católica de Campinas (PUC-Campinas)**  
+**Equipe ES-PI4-2026-T2-G015**
 
-Projeto desenvolvido por alunos do curso de **Engenharia de Software da PUC-Campinas**, no contexto do **Projeto Integrador IV**.
-
-## 📌 Sobre o projeto
-
-O **AgroRecursos MarketPlace** é uma plataforma de marketplace digital especializada em **insumos agropecuários**, criada com o objetivo de conectar produtores rurais e fornecedores em um único ambiente.
-
-O projeto busca tornar o processo de aquisição de insumos agrícolas mais **ágil, transparente e confiável**, reduzindo a dependência de cotações manuais e presenciais e facilitando a comparação entre diferentes fornecedores.
-
-A proposta também busca aumentar a segurança das compras por meio da disponibilização de informações sobre a procedência dos produtos e de seus respectivos **laudos técnicos**.
+> Plataforma digital para aquisição de insumos agropecuários, com foco em transparência, agilidade e procedência.
 
 ---
 
-## 🚜 Problema
+## 1. Visão Geral
 
-Atualmente, produtores rurais podem enfrentar dificuldades durante a aquisição de insumos agrícolas, como:
+O **AgroRecursos MarketPlace** é uma plataforma digital de marketplace especializada na comercialização de insumos agropecuários.
 
-- Dificuldade para realizar cotações rápidas e comparativas;
-- Dependência de contatos individuais com fornecedores;
-- Cotações realizadas presencialmente ou por WhatsApp;
-- Falta de transparência sobre a procedência dos produtos;
-- Risco de aquisição de insumos adulterados ou sem laudo técnico;
-- Tempo e custos operacionais envolvidos na busca por fornecedores.
+O projeto tem como objetivo centralizar produtores rurais, fornecedores, produtos, cotações e informações técnicas em um único ambiente, buscando tornar o processo de aquisição de insumos mais eficiente, transparente e confiável.
 
-Esse cenário torna o processo de compra fragmentado, pouco digitalizado e sujeito a assimetrias de informação.
+A proposta surgiu a partir da identificação de ineficiências no processo tradicional de aquisição de insumos agrícolas, caracterizado pela realização de cotações manuais ou presenciais, dificuldade de comparação entre fornecedores e limitações relacionadas à verificação da procedência dos produtos.
+
+O sistema propõe a digitalização desse processo por meio de um ambiente centralizado que permita ao produtor consultar produtos, comparar propostas comerciais e acessar informações técnicas associadas aos insumos.
 
 ---
 
-## 💡 Solução proposta
+## 2. Contexto do Problema
 
-A solução consiste no desenvolvimento de um **marketplace especializado em insumos agropecuários**, reunindo em um único ambiente:
+O processo de aquisição de insumos agrícolas ainda apresenta dificuldades relacionadas à fragmentação das informações e à baixa digitalização das negociações.
 
-- Produtores rurais;
-- Fornecedores;
-- Produtos;
-- Cotações;
-- Informações técnicas;
-- Laudos de procedência.
+Entre os principais problemas identificados durante a etapa de ideação estão:
 
-Dois dos principais elementos da solução são o **Painel de Cotações** e a **Consulta de Laudos MAPA**, permitindo que o produtor compare propostas e tenha acesso a informações técnicas antes de realizar uma compra.
+- dificuldade na realização de cotações ágeis e comparativas;
+- dependência de negociações realizadas individualmente com fornecedores;
+- realização de cotações por meios presenciais ou canais não especializados;
+- ausência de uma plataforma centralizada para comparação de ofertas;
+- falta de transparência sobre a procedência dos produtos;
+- risco de aquisição de insumos sem documentação técnica adequada;
+- custos operacionais associados ao processo de pesquisa e aquisição.
 
----
-
-## 🎯 Objetivos
-
-O AgroRecursos MarketPlace tem como principais objetivos:
-
-- Centralizar a oferta e a demanda de insumos agrícolas em uma plataforma digital;
-- Reduzir o tempo e o custo operacional das cotações;
-- Facilitar a comparação de preços entre fornecedores;
-- Aumentar a transparência nas negociações;
-- Garantir maior visibilidade sobre a procedência dos produtos;
-- Disponibilizar certificações e laudos técnicos;
-- Aproximar produtores rurais e fornecedores.
+A fragmentação do mercado e a ausência de um ambiente centralizado podem gerar assimetria de informações entre produtores e fornecedores, aumentando o tempo necessário para a tomada de decisão e dificultando a comparação entre diferentes alternativas de compra.
 
 ---
 
-## 🚀 Funcionalidades previstas para o MVP
+## 3. Objetivos
 
-> As funcionalidades poderão sofrer alterações durante o desenvolvimento do projeto.
+### 3.1 Objetivo Geral
 
-### 👤 Cadastro de usuários
+Desenvolver uma plataforma digital destinada à centralização da oferta e da demanda de insumos agropecuários, proporcionando aos produtores rurais mecanismos para pesquisa, comparação e aquisição de produtos de forma mais eficiente e transparente.
 
-Permitir que **produtores e fornecedores** criem contas e gerenciem seus perfis e históricos de compras e vendas.
+### 3.2 Objetivos Específicos
 
-### 🌾 Catálogo de insumos
+O projeto busca:
 
-Exibição organizada dos produtos disponíveis, permitindo filtros como:
-
-- Categoria;
-- Marca;
-- Preço.
-
-### 🛒 Carrinho de compras
-
-Permitir a seleção de múltiplos produtos e a consolidação do pedido antes da finalização da compra.
-
-### 📊 Painel de cotações
-
-Permitir a solicitação e comparação de propostas de diferentes fornecedores, considerando informações como:
-
-- Preço;
-- Prazo;
-- Avaliação do fornecedor.
-
-### 💳 Sistema de pagamento
-
-Previsão de integração com diferentes formas de pagamento, incluindo:
-
-- Boleto;
-- Cartão;
-- Crédito rural.
-
-### 📄 Rastreabilidade e laudos
-
-Associar produtos às suas informações técnicas e disponibilizar **laudos do MAPA**, contribuindo para a verificação da procedência e qualidade dos insumos.
+- centralizar a oferta e a demanda de insumos agrícolas em uma plataforma digital;
+- reduzir o tempo e o custo operacional associados às cotações;
+- permitir a comparação de preços e condições entre diferentes fornecedores;
+- disponibilizar informações relacionadas à procedência dos produtos;
+- associar produtos às respectivas informações e documentações técnicas;
+- promover maior transparência nas transações entre produtores e fornecedores;
+- facilitar o processo de tomada de decisão durante a aquisição de insumos.
 
 ---
 
-## 🖥️ Experiência do usuário
+## 4. Solução Proposta
 
-O fluxo idealizado para a plataforma inclui:
+A solução consiste em um **marketplace especializado em insumos agropecuários**, responsável por reunir produtos, fornecedores, cotações e informações técnicas em uma única plataforma.
 
-1. **Dashboard**  
-   Visualização de cotações em aberto, status de pedidos e recomendações.
+A proposta contempla dois componentes centrais:
 
-2. **Catálogo e busca**  
-   Pesquisa de insumos utilizando filtros por categoria, marca e região.
+### Painel de Cotações
 
-3. **Detalhes do produto**  
-   Exibição de informações técnicas, laudos de conformidade, cálculo de frete e avaliações.
+Módulo destinado à solicitação e comparação de propostas comerciais apresentadas por diferentes fornecedores.
 
-4. **Painel de cotações**  
-   Comparação entre propostas de diferentes fornecedores.
+O painel deverá permitir a análise de informações relevantes para a tomada de decisão, como:
 
-5. **Checkout**  
-   Revisão do pedido, informações de entrega e escolha da forma de pagamento.
+- preço;
+- prazo de entrega;
+- fornecedor;
+- avaliação do fornecedor.
 
-6. **Cadastro e autenticação**  
-   Acesso diferenciado para produtores e fornecedores.
+### Consulta de Laudos
 
----
+Módulo destinado à disponibilização e consulta de informações e documentos técnicos associados aos produtos comercializados na plataforma.
 
-## ⭐ Prioridades iniciais
-
-Com base na priorização realizada durante a etapa de ideação, as principais entregas são:
-
-1. **Painel de Cotações**
-2. **Consulta de Laudos MAPA**
-3. **Catálogo de Insumos**
-4. **Cadastro de Usuários**
-5. **Rastreabilidade dos Produtos**
+A funcionalidade tem como objetivo aumentar a transparência sobre a procedência e a qualidade dos insumos disponibilizados.
 
 ---
 
-## 🛠️ Tecnologias previstas
+## 5. Escopo Inicial do MVP
 
-| Tecnologia | Aplicação |
+As funcionalidades apresentadas nesta seção correspondem ao escopo definido durante a etapa de ideação e poderão ser revisadas ao longo do desenvolvimento.
+
+### 5.1 Cadastro de Usuários
+
+Cadastro e gerenciamento de contas para os diferentes perfis previstos na plataforma:
+
+- produtores rurais;
+- fornecedores.
+
+O sistema deverá permitir o gerenciamento das informações de perfil e do histórico relacionado às operações realizadas pelo usuário.
+
+### 5.2 Catálogo de Insumos
+
+Disponibilização dos produtos cadastrados na plataforma por meio de um catálogo estruturado.
+
+Está prevista a utilização de mecanismos de filtragem por características como:
+
+- categoria;
+- marca;
+- preço.
+
+### 5.3 Carrinho de Compras
+
+Funcionalidade destinada à seleção de múltiplos produtos e à consolidação dos itens antes da finalização do pedido.
+
+### 5.4 Painel de Cotações
+
+Ferramenta destinada à solicitação e comparação de propostas apresentadas por diferentes fornecedores.
+
+### 5.5 Sistema de Pagamento
+
+O escopo inicial prevê suporte à integração com diferentes modalidades de pagamento, incluindo:
+
+- boleto;
+- cartão;
+- crédito rural.
+
+### 5.6 Rastreabilidade e Laudos
+
+Funcionalidade destinada à associação dos produtos às respectivas informações técnicas e aos laudos correspondentes, permitindo ao usuário consultar dados relacionados à procedência do insumo.
+
+---
+
+## 6. Fluxo Geral da Plataforma
+
+A experiência inicialmente proposta contempla as seguintes etapas:
+
+1. **Autenticação e cadastro**  
+   Acesso à plataforma por meio de contas específicas para produtores e fornecedores.
+
+2. **Dashboard**  
+   Visualização centralizada de informações relevantes, incluindo cotações em aberto e status de pedidos.
+
+3. **Catálogo de produtos**  
+   Pesquisa e filtragem dos insumos disponíveis na plataforma.
+
+4. **Detalhamento do produto**  
+   Consulta de informações técnicas, documentação, condições comerciais e informações relacionadas ao produto.
+
+5. **Painel de cotações**  
+   Comparação das propostas apresentadas por diferentes fornecedores.
+
+6. **Carrinho e checkout**  
+   Consolidação dos produtos selecionados, definição das informações de entrega e seleção da modalidade de pagamento.
+
+---
+
+## 7. Priorização de Desenvolvimento
+
+Durante a etapa de ideação, as funcionalidades foram analisadas com base em critérios de priorização.
+
+As principais entregas inicialmente definidas são:
+
+| Prioridade | Funcionalidade |
+|:---:|---|
+| 1 | Painel de Cotações |
+| 2 | Consulta de Laudos MAPA |
+| 3 | Catálogo de Insumos |
+| 4 | Cadastro de Usuários |
+| 5 | Rastreabilidade dos Produtos |
+
+Essa priorização poderá ser revisada de acordo com requisitos técnicos, validações realizadas durante o projeto e decisões tomadas pela equipe ao longo do desenvolvimento.
+
+---
+
+## 8. Tecnologias
+
+A arquitetura inicialmente proposta durante a etapa de ideação considera as seguintes tecnologias:
+
+| Tecnologia | Aplicação prevista |
 |---|---|
-| **Java** | Desenvolvimento do back-end |
-| **MongoDB** | Banco de dados NoSQL |
-| **HTML / Web** | Desenvolvimento da interface web |
+| Java | Desenvolvimento do back-end |
+| MongoDB | Persistência de dados em banco NoSQL |
+| HTML | Estruturação da interface web |
 
-> A stack tecnológica poderá ser modificada conforme as necessidades identificadas durante o desenvolvimento.
-
----
-
-## 👥 Equipe
-
-**ES-PI4-2026-T2-G015**
-
-- Gabriel Hespanholeto Maziero
-- Giovana Portela Bonfim
-- Pedro Vinicius Romanato
-- João Pedro Bergamin Diniz
-- Isabela Paslauski
+A definição da stack tecnológica poderá ser revisada conforme a evolução dos requisitos e as necessidades técnicas identificadas durante o desenvolvimento.
 
 ---
 
-## 🎓 Contexto acadêmico
+## 9. Público-Alvo
 
-**Instituição:** Pontifícia Universidade Católica de Campinas (PUC-Campinas)  
-**Curso:** Engenharia de Software  
-**Projeto:** Projeto Integrador IV  
-**Equipe:** ES-PI4-2026-T2-G015  
-**Ano:** 2026
+A solução considera como principais participantes:
 
----
+### Produtores Rurais
 
-## 📚 Origem do projeto
+Usuários interessados em pesquisar, comparar e adquirir insumos agropecuários por meio da plataforma.
 
-O AgroRecursos MarketPlace foi desenvolvido inicialmente durante a etapa de **Ideação e Validação em Engenharia de Software**, na qual foram estudados o problema, persona, objetivos, proposta de solução, MVP, análise SWOT, modelo de negócio e protótipos da plataforma.
+### Fornecedores
 
-A proposta é evoluir essa ideação para uma solução de software funcional ao longo do Projeto Integrador IV.
+Empresas ou profissionais responsáveis pela disponibilização de produtos e apresentação de propostas comerciais aos produtores.
 
 ---
 
-**AgroRecursos MarketPlace — conectando o campo com confiança, agilidade e procedência. 🌱**
+## 10. Equipe
+
+| Integrante |
+|---|
+| Gabriel Hespanholeto Maziero |
+| Giovana Portela Bonfim |
+| Pedro Vinicius Romanato |
+| João Pedro Bergamin Diniz |
+| Isabela Paslauski |
+
+---
+
+## 11. Informações Acadêmicas
+
+| Informação | Descrição |
+|---|---|
+| Instituição | Pontifícia Universidade Católica de Campinas — PUC-Campinas |
+| Escola | Escola Politécnica |
+| Curso | Engenharia de Software |
+| Projeto | Projeto Integrador IV |
+| Equipe | ES-PI4-2026-T2-G015 |
+| Ano | 2026 |
+
+---
+
+## 12. Origem do Projeto
+
+O **AgroRecursos MarketPlace** teve sua concepção inicial desenvolvida durante o componente curricular de **Ideação e Validação em Engenharia de Software**.
+
+Durante essa etapa foram realizados estudos relacionados à identificação e definição do problema, análise de persona, levantamento de objetivos, brainstorming, análise SWOT, definição do MVP, priorização de funcionalidades, elaboração do modelo de negócio e desenvolvimento de wireframes.
+
+O Projeto Integrador IV dá continuidade à proposta, direcionando o trabalho para a evolução da solução e para o desenvolvimento do sistema.
+
+---
+
+## 13. Status do Projeto
+
+**Em desenvolvimento.**
+
+Este repositório será utilizado para o versionamento do código-fonte, documentação técnica, gerenciamento das atividades e acompanhamento da evolução do AgroRecursos MarketPlace durante o Projeto Integrador IV.
+
+---
+
+## Licença
+
+Projeto desenvolvido para fins acadêmicos no curso de Engenharia de Software da Pontifícia Universidade Católica de Campinas (PUC-Campinas).
+
+Todos os direitos reservados aos autores.
